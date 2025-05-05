@@ -1,0 +1,89 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "apiRESTCheckUsuario",
+    "collectionId": "4c56faf2-11ec-4880-974b-633f60364e7f",
+    "dateExported": "2025-03-23T18:45:30.044Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "621139c1-ad88-4a03-bc10-4b0add4a6e79",
+            "name": "Generales",
+            "containerId": "",
+            "created": "2025-03-12T18:11:20.734Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "36467e27-ae9a-4d6a-9d0a-958d764e2405",
+            "colId": "4c56faf2-11ec-4880-974b-633f60364e7f",
+            "containerId": "621139c1-ad88-4a03-bc10-4b0add4a6e79",
+            "name": "postCHECKUsuario",
+            "url": "https://localhost:44370/check/usuario/spinusuario",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-03-12T18:12:07.030Z",
+            "modified": "2025-03-12T18:41:50.954Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"nombre\": \"Daniel\",\r\n  \"apellidoPaterno\": \"Morales\",\r\n  \"apellidoMaterno\": \"Perez\",\r\n  \"usuario\": \"MP\",\r\n  \"contrasena\": \"543210sed\",\r\n  \"ruta\": \"imagenes\",\r\n  \"tipo\": \"3\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2062904f-3ba1-4ae8-bcbe-ea5836fc07e1",
+            "colId": "4c56faf2-11ec-4880-974b-633f60364e7f",
+            "containerId": "621139c1-ad88-4a03-bc10-4b0add4a6e79",
+            "name": "psotSpValidarAcceso",
+            "url": "https://localhost:44370/check/usuario/spvalidaracceso",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-03-14T20:52:35.014Z",
+            "modified": "2025-03-14T20:56:14.690Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"usuario\": \"MP\",\n  \"contrasena\": \"543210sed\"\n \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "afa88af4-a546-4b66-9a8c-d7b8d3912c14",
+            "colId": "4c56faf2-11ec-4880-974b-633f60364e7f",
+            "containerId": "621139c1-ad88-4a03-bc10-4b0add4a6e79",
+            "name": "getvwRptUsuario ",
+            "url": "https://localhost:44370/check/usuario/vwRptUsuario?filtro=edgar",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-03-19T18:03:44.024Z",
+            "modified": "2025-03-21T04:05:11.263Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "filtro",
+                    "value": "edgar",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"usuario\": \"MP\",\n  \"contrasena\": \"543210sed\"\n \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "19277fc6-bd37-4916-aee2-4ebf221d9aff",
+            "colId": "4c56faf2-11ec-4880-974b-633f60364e7f",
+            "containerId": "621139c1-ad88-4a03-bc10-4b0add4a6e79",
+            "name": "getvwTipoUsuario",
+            "url": "https://localhost:44370/check/usuario/vwTipoUsuario",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-03-19T18:29:13.682Z",
+            "modified": "2025-03-19T18:29:45.798Z",
+            "headers": []
+        }
+    ],
+    "ref": "JARD1SagUfP8U8lveI2RP_934CzUrFAuludA12adxNLT4U9YmuqT9NjzVJF0RAnuKBmkfpJlFFeFyxzerkujfQ"
+}

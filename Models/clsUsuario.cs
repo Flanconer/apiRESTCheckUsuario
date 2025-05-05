@@ -32,8 +32,10 @@ namespace apiRESTCheckUsuario.Models
             this.usuario = usuario;
             this.contrasena = contraseña;
         }
-        public clsUsuario(string nombre, string apellidoPaterno, string apellidoMaterno, string usuario,string contraseña,string ruta, string tipo)
+        public clsUsuario(string cve,string nombre, string apellidoPaterno, string apellidoMaterno, string usuario,string contraseña,string ruta, string tipo)
         {
+           
+            this.cve = cve;
             this.nombre = nombre;
             this.apellidoPaterno = apellidoPaterno;
             this.apellidoMaterno = apellidoMaterno;
@@ -58,6 +60,7 @@ namespace apiRESTCheckUsuario.Models
             return ds;
 
         }
+  
         // Proceso de validación de usuarios (spValidarAcceso)
         public DataSet spValidarAcceso()
         {
@@ -71,6 +74,35 @@ namespace apiRESTCheckUsuario.Models
             DataSet ds = new DataSet();
             // Ejecución y salida
             da.Fill(ds, "spValidarAcceso");
+            return ds;
+        }
+        public DataSet spDelUsuario()
+        {
+            // Crear el comando SQL
+            string cadSQL = "";
+            cadSQL = "call spDelUsuario('" + this.cve + "');";
+            // Configuración de objetos de conexión
+            MySqlConnection cnn = new MySqlConnection(cadConn);
+            MySqlDataAdapter da = new MySqlDataAdapter(cadSQL, cnn);
+            DataSet ds = new DataSet();
+            // Ejecución y salida
+            da.Fill(ds, "spDelUsuario");
+            return ds;
+        }
+        public DataSet spUpdUsuario()
+        {
+            // Crear el comando SQL
+            string cadSQL = "";
+            cadSQL = "call spUpdUsuario(" + this.cve + ", '" + this.nombre + "', '" + this.apellidoPaterno +
+        "', '" + this.apellidoMaterno + "', '" + this.usuario +
+        "', '" + this.contrasena + "', '" + this.ruta +
+        "', " + this.tipo + ")";
+            // Configuración de objetos de conexión
+            MySqlConnection cnn = new MySqlConnection(cadConn);
+            MySqlDataAdapter da = new MySqlDataAdapter(cadSQL, cnn);
+            DataSet ds = new DataSet();
+            // Ejecución y salida
+            da.Fill(ds, "spUpdUsuario");
             return ds;
         }
         public DataSet vwRptUsuario(string filtro)
@@ -87,6 +119,35 @@ namespace apiRESTCheckUsuario.Models
             da.Fill(ds, "vwRptUsuario");
             return ds;
         }
+        public DataSet vwRptUsuariofiltro(string filtro)
+        {
+            // Crear el comando SQL
+            string cadSQL = "";
+            cadSQL = "select * from vwRptUsuario where Usuario like @filtro";
+            // Configuración de objetos de conexión
+            MySqlConnection cnn = new MySqlConnection(cadConn);
+            MySqlDataAdapter da = new MySqlDataAdapter(cadSQL, cnn);
+            da.SelectCommand.Parameters.AddWithValue("@filtro", "%" + filtro + "%");
+            DataSet ds = new DataSet();
+            // Ejecución y salida
+            da.Fill(ds, "vwRptUsuario");
+            return ds;
+        }
+        public DataSet vwRptUsuariocve(string filtro)
+        {
+            // Crear el comando SQL
+            string cadSQL = "";
+            cadSQL = "select * from control_acceso.usuario where USU_CVE_USUARIO like @filtro";
+            // Configuración de objetos de conexión
+            MySqlConnection cnn = new MySqlConnection(cadConn);
+            MySqlDataAdapter da = new MySqlDataAdapter(cadSQL, cnn);
+            da.SelectCommand.Parameters.AddWithValue("@filtro", "%" + filtro + "%");
+            DataSet ds = new DataSet();
+            // Ejecución y salida
+            da.Fill(ds, "vwRptUsuario");
+            return ds;
+        }
+
         public DataSet vwTipoUsuario()
         {
             // Crear el comando SQL

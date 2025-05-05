@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|d:\\escritorio\\talleravdesw\\2\\apirestcheckusuario\\apirestcheckusuario\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|solutionrelative:apirestcheckusuario\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apirestcheckusuario\\models\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|solutionrelative:apirestcheckusuario\\models\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apirestcheckusuario\\models\\clsapistatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|solutionrelative:apirestcheckusuario\\models\\clsapistatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apirestcheckusuario\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6FB371ED-CA55-4CBF-80EB-54441BF3347C}|apiRESTCheckUsuario\\apiRESTCheckUsuario.csproj|solutionrelative:apirestcheckusuario\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Web.config",
+              "RelativeDocumentMoniker": "apiRESTCheckUsuario\\Web.config",
+              "ToolTip": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Web.config",
+              "RelativeToolTip": "apiRESTCheckUsuario\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-10T18:27:24.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "apiRESTCheckUsuario\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "apiRESTCheckUsuario\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAALUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:01:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsApiStatus.cs",
+              "DocumentMoniker": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Models\\clsApiStatus.cs",
+              "RelativeDocumentMoniker": "apiRESTCheckUsuario\\Models\\clsApiStatus.cs",
+              "ToolTip": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Models\\clsApiStatus.cs",
+              "RelativeToolTip": "apiRESTCheckUsuario\\Models\\clsApiStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:00:09.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUsuario.cs",
+              "DocumentMoniker": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Models\\clsUsuario.cs",
+              "RelativeDocumentMoniker": "apiRESTCheckUsuario\\Models\\clsUsuario.cs",
+              "ToolTip": "D:\\Escritorio\\TallerAVDeSW\\2\\apiRESTCheckUsuario\\apiRESTCheckUsuario\\Models\\clsUsuario.cs",
+              "RelativeToolTip": "apiRESTCheckUsuario\\Models\\clsUsuario.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:59:07.82Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
