@@ -4,8 +4,7 @@
 # Taller Avanzado de Desarrollo de Software
 
 ## Actividad:
-# Clase 18 - webApi (apiRESTCheckUsuario)
-
+# Práctica CRUD Usuarios (completo)
 
 ## Estudiantes:
 # Edgar Hernández Mendoza
@@ -14,7 +13,7 @@
  # M.T.I. Luis Alejandro Santana Valadez
 
 ## Fecha:
-# 23/03/25
-## concliusiom
+# 05/05/25
+## concliusion
 
-# La actividad permitió comprender y aplicar los conceptos fundamentales para la creación de una API REST que gestiona usuarios a través de una base de datos MySQL. A lo largo del proceso, se definieron los modelos de datos, se configuraron las librerías necesarias y se estableció la conexión con la base de datos mediante web.config. Además, se implementaron métodos en el modelo clsUsuario.cs para la ejecución de operaciones en la base de datos, los cuales fueron expuestos a través del controlador UsuarioController.cs.
+# La actividad permitió comprender y aplicar los conceptos clave para el desarrollo de una API REST que gestiona usuarios mediante una base de datos MySQL. Se definieron modelos de datos, se configuraron las librerías necesarias y se estableció la conexión a través de web.config. En las últimas actualizaciones, se implementaron y ajustaron los métodos en clsUsuario.cs para realizar operaciones CRUD más eficientes, y se mejoró el controlador UsuarioController.cs para asegurar una correcta exposición de los servicios, facilitando la comunicación entre el cliente y la base de datos bajo una arquitectura RESTful bien estructurada.
